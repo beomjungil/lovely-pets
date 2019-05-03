@@ -1,0 +1,26 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+        "quotemark": [true, "single", "jsx-double"],
+        "semicolon": true,
+        "whitespace": [
+            true,
+            "check-module",
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type",
+            "check-typecast"
+        ],
+        "import-destructuring-spacing": true,
+        "import-spacing": true,
+        "jsx-space-before-trailing-slash": true
+    },
+    "rulesDirectory": []
+}
